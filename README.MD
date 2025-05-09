@@ -20,7 +20,6 @@ company to increase revenue by convert casual riders into members using advertis
 - Average trip duration by User Type
 - Average trip distance by User Type
 - The peak hours of usage within a day vary by user type
-- The busiest stations during peak hours vary by user type
 
     Query: [1_Differences in customer behavior.sql](<Query/1_Differences in customer behavior.sql>)
 
@@ -65,17 +64,6 @@ company to increase revenue by convert casual riders into members using advertis
 ### 5. The peak hours of usage within a day vary by user type
 
 <img src="Picture/The peak hours of usage within a day vary by user type.png" width="60%">
-
-### Key Findings:
-#### Casual Riders:
-- Member users tend to be active during typical commuting hours, particularly between 7–9 AM and 4–6 PM.
-
-#### Member Riders:
-- Casual users are more active during midday to late afternoon hours (11 AM–5 PM), suggesting a recreational or leisure-based usage pattern.
-
-### 6. The busiest stations during peak hours vary by user type
-
-<img src="Picture/The busiest stations during peak hours vary by user type.png" width="60%">
 
 ### Key Findings:
 #### Casual Riders:
