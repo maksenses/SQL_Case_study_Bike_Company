@@ -29,6 +29,8 @@ company to increase revenue by convert casual riders into members using advertis
 
 <img src="Picture/Trip Count per Day by User Type.jpg" width="50%">
 
+*(Visual created using ChatGPT)*
+
 ### Key Findings:
 #### Casual Riders:
 - The highest trip counts occur on weekends, with Saturday as the peak day on average.
@@ -42,6 +44,8 @@ company to increase revenue by convert casual riders into members using advertis
 
 <img src="Picture/The frequently used start stations for member and casual users.png" width="60%">
 
+*(Made with Excel)*
+
 ### Key Findings:
 #### The top 5 start stations vary significantly by customer type:
 - Casual riders and member riders have completely different sets of top 5 start stations.
@@ -49,6 +53,8 @@ company to increase revenue by convert casual riders into members using advertis
 ### 3. Average trip duration by User Type
 
 <img src="Picture/Average trip duration by User Type.jpg" width="60%">
+
+*(Made with Excel)*
 
 ### Key Findings:
 #### Casual riders take significantly longer trips compared to member riders:
@@ -58,12 +64,17 @@ company to increase revenue by convert casual riders into members using advertis
 
 <img src="Picture/Average trip distance by User Type.png" width="60%">
 
+*(Made with Excel)*
+
 ### Key Findings:
 #### Member riders have longer average distance compared to casual riders
 
 ### 5. The peak hours of usage within a day vary by user type
 
 <img src="Picture/The peak hours of usage within a day vary by user type.png" width="60%">
+
+*(Made with Excel)*
+
 
 ### Key Findings:
 #### Casual Riders:
@@ -85,10 +96,14 @@ company to increase revenue by convert casual riders into members using advertis
 - Cyclistic can leverage digital media to **target casual riders who ride during weekday commuting hours** (7–9 AM and 4–6 PM) from the **busiest stations used by members**.
 These riders likely use bikes to commute to and from work, but they are still paying per trip. Since their behavior aligns with that of members, they represent high-potential conversion targets.
 
-    Query: [2_Targeted_customer.sql](<Query/2_Targeted_customer>)
+    Query: [2_Targeted_customer.sql](<Query/2_Targeted_customer.sql>)
     - **Pilot Project: Focused Digital Campaign on Top 10 Member Stations**
 
-         <img src="Picture/target_strategy.jpg" width="100%">
+         <img src="Picture/targetstrategypowerbi.png" width="100%">
+
+         *(Visualized using Power BI)*
+
+
 
         To maximize efficiency and test the strategy at a smaller scale, Cyclistic can launch a pilot digital marketing campaign targeting casual riders who start their trips at the 10 stations with the highest number of member trips during commuting hours (7–9 AM and 4–6 PM on weekdays).
 ### 2. Using Digital Media Tools
@@ -100,7 +115,7 @@ These riders likely use bikes to commute to and from work, but they are still pa
 ## Technical details:
 - **Database**: 2024-divvy-tripdata
 - **Analysis tools**: SQL (PostgreSQL), Excel
-- **Visualization**: Chatgpt, Excel
+- **Visualization**: Chatgpt, Excel, Power BI
 
 ## Conclusion
 The analysis reveals distinct behavioral patterns between casual riders and annual members of Cyclistic's bike-share system:
